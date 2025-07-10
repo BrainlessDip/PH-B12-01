@@ -203,3 +203,48 @@ footer {
   font-family: "Raleway", sans-serif;
   font-size: medium;
 }
+
+.UserFeedback {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 116px;
+}
+
+.feedback-title {
+  text-align: center;
+  font-size: 42px;
+  font-family: "Raleway", sans-serif;
+}
+
+.FeedbackCard {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #F2EDED;
+  padding: 24px;
+  border-radius: 14px;
+  text-wrap: wrap;
+}
+
+.UserFeedback ul li {
+  list-style: none;
+}
+.UserFeedback ul {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+  padding-top: 3px;
+  gap: 4px;
+}
+
+.userProfile img {
+  border-radius: 9999px;
+}
+.userProfile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.userProfile .name {
+  display: block;
+}
