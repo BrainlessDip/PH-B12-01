@@ -124,3 +124,40 @@ nav ul li {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Inter", sans-serif;
 }
+
+.GetInTouch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 116px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  gap: auto;
+}
+
+.GetInTouch-Title {
+  font-size: 80px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.GetInTouch-right label {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.GetInTouch-right input[type="email"],
+input[type="text"],
+textarea {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #d6dded;
+  padding: 20px 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
