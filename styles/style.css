@@ -54,6 +54,7 @@ nav ul li {
 .hero-text {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  max-width: 794px;
   text-align: center;
   font-size: 65px;
 }
@@ -143,6 +144,7 @@ nav ul li {
 
 .GetInTouch-Title {
   font-size: 80px;
+  max-width: 450px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
@@ -186,6 +188,8 @@ footer {
 .footer-description {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
+  font-size: 15px;
+  margin-top: -20px;
   color: rgba(37, 36, 50, 0.5);
 }
 
